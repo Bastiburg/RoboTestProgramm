@@ -1,2 +1,2 @@
-# RoboTestProgramm
-Ein Programm um Roboter zu testen
+# Gif Test
+Die hier geposteten Programme werden dazu genutzt gifs anzuzeigen.
