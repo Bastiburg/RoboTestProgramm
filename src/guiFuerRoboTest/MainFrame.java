@@ -4,9 +4,10 @@ import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+import java.awt.BorderLayout;
 
 /**
- * Die Klasse MainFrame erstellt den MainFrame für diese Gui.
+ * Die Klasse MainFrame erstellt den MainFrame fÃ¼r diese Gui.
  * 
  * @author Sebastian Hilker
  * @version 01,06.06.2018
@@ -26,7 +27,7 @@ public class MainFrame extends JFrame {
 		setTitle("TuxLW Robotertester");
 		setResizable(false);
 		sp = new StartPanel();
-		add(sp);
+		getContentPane().add(sp, BorderLayout.WEST);
 		setVisible(true);
 
 		JMenuBar menuBar = new JMenuBar();
