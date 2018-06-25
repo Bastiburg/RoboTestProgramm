@@ -1,6 +1,5 @@
 package roboTest;
 
-
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -13,10 +12,6 @@ public class MainPanel extends JPanel {
 
 	private JLabel lbActionPerformed;
 	
-	 
-
-	
-
 	public MainPanel() {
 
 		lbActionPerformed = new JLabel();
@@ -30,12 +25,5 @@ public class MainPanel extends JPanel {
 		setLayout(null);
 		setFocusable(true);
 		setVisible(true);
-
-		
-
-		
-
-	}
-
-	
+	}	
 }
